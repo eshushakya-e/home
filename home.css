@@ -1,0 +1,79 @@
+/* style.css */
+
+/* Basic font and body styles */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  background-color: #fff;
+  color: #333;
+}
+
+/* Navigation bar styles */
+.w3-bar {
+  background-color: #000; /* black background */
+}
+
+.w3-bar .w3-button {
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.w3-bar .w3-button:hover {
+  background-color: #444;
+}
+
+/* Slideshow images */
+.mySlides {
+  display: none;
+  width: 100%;
+  animation: fadeEffect 1s;
+}
+
+@keyframes fadeEffect {
+  from {opacity: 0.4;}
+  to {opacity: 1;}
+}
+
+/* Band description container */
+.w3-container.w3-content {
+  max-width: 600px;
+  margin: auto;
+  padding: 16px;
+}
+
+/* Band members section */
+.w3-row-padding {
+  padding: 20px 0;
+}
+
+.w3-third {
+  padding: 10px;
+}
+
+.w3-third img {
+  width: 100%;
+  border-radius: 4px;
+  transition: transform 0.3s ease;
+}
+
+.w3-third img:hover {
+  transform: scale(1.05);
+}
+
+/* Footer styles */
+footer.w3-container {
+  padding: 64px 16px;
+  background-color: #000;
+  color: white;
+  text-align: center;
+}
+
+.w3-xlarge a {
+  color: #fff;
+  margin: 0 15px;
+  transition: color 0.3s ease;
+}
+
+.w3-xlarge a:hover {
+  color: #4CAF50;
+}
